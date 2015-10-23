@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController.h
 //  SnowflakeDwon
 //
 //  Created by 赵小龙 on 15/10/23.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (retain, nonatomic) UIWindow *window;
-
+@interface ViewController : UIViewController
 
 @end
-

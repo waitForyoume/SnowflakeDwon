@@ -12,6 +12,8 @@
 		3462F0FF1BD9C90200D012BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3462F0FE1BD9C90200D012BB /* Images.xcassets */; };
 		3462F1021BD9C90200D012BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3462F1001BD9C90200D012BB /* LaunchScreen.xib */; };
 		3462F10E1BD9C90200D012BB /* SnowflakeDwonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3462F10D1BD9C90200D012BB /* SnowflakeDwonTests.m */; };
+		3462F11B1BD9CB4D00D012BB /* flake.png in Resources */ = {isa = PBXBuildFile; fileRef = 3462F11A1BD9CB4D00D012BB /* flake.png */; };
+		34FE21CA1BDA1D3000FF1EA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FE21C91BDA1D3000FF1EA8 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		3462F1071BD9C90200D012BB /* SnowflakeDwonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowflakeDwonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3462F10C1BD9C90200D012BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3462F10D1BD9C90200D012BB /* SnowflakeDwonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowflakeDwonTests.m; sourceTree = "<group>"; };
+		3462F11A1BD9CB4D00D012BB /* flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flake.png; sourceTree = "<group>"; };
+		34FE21C81BDA1D3000FF1EA8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34FE21C91BDA1D3000FF1EA8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +81,11 @@
 		3462F0F61BD9C90200D012BB /* SnowflakeDwon */ = {
 			isa = PBXGroup;
 			children = (
+				3462F11A1BD9CB4D00D012BB /* flake.png */,
 				3462F0FB1BD9C90200D012BB /* AppDelegate.h */,
 				3462F0FC1BD9C90200D012BB /* AppDelegate.m */,
+				34FE21C81BDA1D3000FF1EA8 /* ViewController.h */,
+				34FE21C91BDA1D3000FF1EA8 /* ViewController.m */,
 				3462F0FE1BD9C90200D012BB /* Images.xcassets */,
 				3462F1001BD9C90200D012BB /* LaunchScreen.xib */,
 				3462F0F71BD9C90200D012BB /* Supporting Files */,
@@ -191,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3462F11B1BD9CB4D00D012BB /* flake.png in Resources */,
 				3462F1021BD9C90200D012BB /* LaunchScreen.xib in Resources */,
 				3462F0FF1BD9C90200D012BB /* Images.xcassets in Resources */,
 			);
@@ -211,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3462F0FD1BD9C90200D012BB /* AppDelegate.m in Sources */,
+				34FE21CA1BDA1D3000FF1EA8 /* ViewController.m in Sources */,
 				3462F0FA1BD9C90200D012BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = SnowflakeDwon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = SnowflakeDwon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -398,6 +410,7 @@
 				3462F1131BD9C90200D012BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3462F1141BD9C90200D012BB /* Build configuration list for PBXNativeTarget "SnowflakeDwonTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +419,7 @@
 				3462F1161BD9C90200D012BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
